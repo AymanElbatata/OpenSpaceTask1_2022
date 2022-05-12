@@ -1,0 +1,39 @@
+:root{
+    --redColorLinks--: #ec5858;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.MainRedColor{
+    color: var(--redColorLinks--);
+}
+.MainRedColorBG{
+    background-color: var(--redColorLinks--);
+}
+#AllPage{
+    background-color: #f4f3f9;
+    /* background-color: green; */
+}
+.RightSide .SmallText{
+    font-size: 14px;
+}
+.RightSide .LoyaltyPoints{
+    border: 1px solid var(--redColorLinks--);
+    border-radius: 5px;
+}
+
+.RightSide .billingDetailsbg{
+background-color: #505366;
+
+}
+
+.RightSide .myrate{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 5px 1px 1px 5px;
+}
